@@ -5,17 +5,14 @@
 #ifndef EXAMZOO1_1_AMBULE_H
 #define EXAMZOO1_1_AMBULE_H
 #include <iostream>
-#include "NanitChripkovy.h"
+#include "NanitBuilder.h"
 
-class Ambule {
+class Ambule: public NanitBuilder{
 protected:
     int m_pocetLatek;
-    NanitChripkovy* m_nanit;
 public:
     Ambule(int pocetLatek);
     virtual float getUtocnaSila() = 0;
-    void createNewNanit(std::string oznaceni);
-    NanitChripkovy* getNanit();
 };
 
 

@@ -13,6 +13,7 @@ class NanitChripkovy {
     Ambule* m_vyzbroj;
 public:
     NanitChripkovy(std::string oznaceni);
+    void setAmpule(Ambule* vyzbroj);
     void printInfo();
 };
 
