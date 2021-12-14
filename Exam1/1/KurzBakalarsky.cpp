@@ -13,3 +13,7 @@ KurzBakalarsky::KurzBakalarsky(){
 Student* KurzBakalarsky::vytvorStudent(std::string jmeno, int pocetKreditu){
     return new Student(jmeno, pocetKreditu, m_minimalniPocetKreditu, m_typStudia);
 }
+
+Kurz* KurzBakalarsky::vytvorKurz(){
+    return new KurzBakalarsky();
+}

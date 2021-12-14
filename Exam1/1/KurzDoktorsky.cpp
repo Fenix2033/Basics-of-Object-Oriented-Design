@@ -12,3 +12,7 @@ KurzDoktorsky::KurzDoktorsky(){
 Student* KurzDoktorsky::vytvorStudent(std::string jmeno, int pocetKreditu){
     return new Student(jmeno, pocetKreditu, m_minimalniPocetKreditu, m_typStudia);
 }
+
+Kurz* KurzDoktorsky::vytvorKurz(){
+    return new KurzDoktorsky();
+}

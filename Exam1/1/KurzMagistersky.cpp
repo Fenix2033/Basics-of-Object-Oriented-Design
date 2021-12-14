@@ -12,3 +12,7 @@ KurzMagistersky::KurzMagistersky(){
 Student* KurzMagistersky::vytvorStudent(std::string jmeno, int pocetKreditu){
     return new Student(jmeno, pocetKreditu, m_minimalniPocetKreditu, m_typStudia);
 }
+
+Kurz* KurzMagistersky::vytvorKurz(){
+    return new KurzMagistersky();
+}

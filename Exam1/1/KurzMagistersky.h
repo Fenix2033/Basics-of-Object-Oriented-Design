@@ -12,6 +12,7 @@ class KurzMagistersky:public Kurz {
 public:
     KurzMagistersky();
     Student* vytvorStudent(std::string jmeno, int pocetKreditu);
+    Kurz* vytvorKurz();
 };
 
 

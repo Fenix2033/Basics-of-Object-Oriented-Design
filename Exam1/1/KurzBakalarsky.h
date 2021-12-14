@@ -13,6 +13,7 @@ class KurzBakalarsky:public Kurz{
 public:
     KurzBakalarsky();
     Student* vytvorStudent(std::string jmeno, int pocetKreditu);
+    Kurz* vytvorKurz();
 };
 
 

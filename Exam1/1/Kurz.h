@@ -10,6 +10,7 @@
 class Kurz {
 public:
     virtual Student* vytvorStudent(std::string jmeno, int pocetKreditu) = 0;
+    virtual Kurz* vytvorKurz() = 0;
 };
 
 
