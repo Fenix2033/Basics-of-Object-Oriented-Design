@@ -5,14 +5,14 @@
 #ifndef EXAMZOO1_1_MORFIN_H
 #define EXAMZOO1_1_MORFIN_H
 #include <iostream>
-#include "Ambule.h"
+#include "Ampule.h"
 
 
-class Morfin: public Ambule{
+class Morfin: public Ampule{
     int m_sila;
 public:
     Morfin(int sila);
-    float getUtocnaSila();
+    float getUtocnaSila() override;
 };
 
 

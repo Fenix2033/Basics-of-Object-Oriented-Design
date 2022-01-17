@@ -1,19 +1,26 @@
 #include <iostream>
 #include "Morfin.h"
-#include "Ambule.h"
+#include "Ampule.h"
 #include "NanitChripkovy.h"
-#include "NanitBuilder.h"
-#include "NanitDirector.h"
+#include "AmpuleDirector.h"
+#include "Morfin.h"
+#include "Kapsicin.h"
 
 int main() {
 
-    Morfin* m = new Morfin(10);
-    NanitDirector* morfin
-            = new NanitDirector(new Morfin(10));
-    NanitChripkovy* ranhojic = morfin->constructNanit("Morfin", m);
-    ranhojic->printInfo();
+    AmpuleDirector* director = new AmpuleDirector(new Morfin(10));
+    NanitChripkovy* ranhojic = new NanitChripkovy("Ranhojic");
+    NanitChripkovy* vymitac = new NanitChripkovy("Vymitac");
+    ranhojic->setAmpule(director->getAmpule());
 
-    delete morfin;
+    director->setNanitBuilder(new Kapsicin(1, 10));
+    vymitac->setAmpule(director->getAmpule());
+
+    ranhojic->printInfo();
+    vymitac->printInfo();
+    
     delete ranhojic;
+    delete vymitac;
+    delete director;
     return 0;
 }

@@ -1,0 +1,11 @@
+# ninja log v5
+2	70	1642417954364726433	CMakeFiles/ExamZoo1_1.dir/Kapsicin.cpp.o	cc397f53d8fb057d
+1	742	1642417955036730721	CMakeFiles/ExamZoo1_1.dir/NanitChripkovy.cpp.o	3b3267acd63a4965
+1	923	1642417992524969829	CMakeFiles/ExamZoo1_1.dir/NanitChripkovy.cpp.o	3b3267acd63a4965
+4	986	1642418214638383244	CMakeFiles/ExamZoo1_1.dir/Morfin.cpp.o	15fa7819e6360c6a
+7	1067	1642418214718383752	CMakeFiles/ExamZoo1_1.dir/NanitChripkovy.cpp.o	3b3267acd63a4965
+1	1270	1642418214910384971	CMakeFiles/ExamZoo1_1.dir/main.cpp.o	a21541caee40d21d
+7	1291	1642418214942385175	CMakeFiles/ExamZoo1_1.dir/Ampule.cpp.o	e0be68cda66ed260
+11	1301	1642418214954385251	CMakeFiles/ExamZoo1_1.dir/AmpuleDirector.cpp.o	fd378667b5bb4def
+1301	1435	1642418215086386090	ExamZoo1_1	6b83c18ceaa606d0
+2	864	1642418315151021480	CMakeFiles/ExamZoo1_1.dir/NanitChripkovy.cpp.o	3b3267acd63a4965

@@ -5,15 +5,15 @@
 #ifndef EXAMZOO1_1_NANITCHRIPKOVY_H
 #define EXAMZOO1_1_NANITCHRIPKOVY_H
 #include <iostream>
-#include "Ambule.h"
+#include "Ampule.h"
 
 class NanitChripkovy {
     std::string m_oznaceni;
     int m_utocnaSila;
-    Ambule* m_vyzbroj;
+    Ampule* m_vyzbroj;
 public:
     NanitChripkovy(std::string oznaceni);
-    void setAmpule(Ambule* vyzbroj);
+    void setAmpule(Ampule* vyzbroj);
     void printInfo();
 };
 

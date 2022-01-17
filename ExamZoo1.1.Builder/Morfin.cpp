@@ -4,7 +4,7 @@
 
 #include "Morfin.h"
 
-Morfin::Morfin(int sila): Ambule(10){
+Morfin::Morfin(int sila): Ampule(10){
     m_sila = sila;
 }
 

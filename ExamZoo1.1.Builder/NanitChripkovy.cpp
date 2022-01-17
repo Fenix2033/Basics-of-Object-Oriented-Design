@@ -15,9 +15,9 @@ NanitChripkovy::NanitChripkovy(std::string oznaceni){
 void NanitChripkovy::printInfo(){
     std::cout << m_oznaceni << std::endl;
     std::cout << m_utocnaSila << std::endl;
-    std::cout << m_vyzbroj << std::endl;
+    std::cout << m_vyzbroj->getUtocnaSila() << std::endl;
 }
 
-void NanitChripkovy::setAmpule(Ambule* vyzbroj){
+void NanitChripkovy::setAmpule(Ampule* vyzbroj){
     m_vyzbroj = vyzbroj;
 }
