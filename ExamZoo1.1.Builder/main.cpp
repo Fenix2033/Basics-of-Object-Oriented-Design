@@ -18,7 +18,7 @@ int main() {
 
     ranhojic->printInfo();
     vymitac->printInfo();
-    
+
     delete ranhojic;
     delete vymitac;
     delete director;
